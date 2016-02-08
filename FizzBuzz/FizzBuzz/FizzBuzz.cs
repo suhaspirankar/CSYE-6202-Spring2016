@@ -10,7 +10,7 @@ namespace FizzBuzz
             string result = number.ToString();
 
 
-
+       
             if (number == 0)
             {
                 return result; //  checking if number is 0
