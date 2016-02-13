@@ -17,6 +17,8 @@ namespace TrianglePatterns
 		static void DisplayPatternA()
 		{
 			// your implementation here
+
+
 		}
 
 		static void DisplayPatternB()
