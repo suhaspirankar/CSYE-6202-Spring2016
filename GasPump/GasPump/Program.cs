@@ -14,20 +14,19 @@ namespace GasPump
 		}
 
 		static void Main(string[] args)
-		{
-			// your implementation here
-
+		{									
 			string gasType = "";
 			string gasAmount = "";
 			Console.Write("Please enter purchased gas type, Q/q to quit :");
 			gasType = Console.ReadLine();
 
-			if (UserEnteredSentinelValue(gasType))
+			
+
+				if (UserEnteredSentinelValue(gasType) )
 			{
 				Console.WriteLine("Thank you ");
-				// return;
 			}
-			else
+			else		
 			{
 				if (UserEnteredValidGasType(gasType))
 				{
@@ -42,16 +41,11 @@ namespace GasPump
 					}
 
 					if (UserEnteredValidAmount(gasAmount))
-
-					{
-
+					{						
 						char myChar = 'X';
 						myChar = gasType[0];
 
-						GasType actualGasType = GasTypeMapper(myChar);
-						Console.WriteLine(" Character is " + myChar);
-
-						Console.WriteLine("Name  of  actual  gas type is  " + actualGasType);
+						GasType actualGasType = GasTypeMapper(myChar); 
 
 						double totalCost = 0.0f;
 
@@ -87,7 +81,11 @@ namespace GasPump
 		{
 			var result = false;
 
-			if (userInput.Equals("Q"))
+			if (userInput==null)
+			{
+				result = false;
+			}
+			else if (userInput.Equals("Q"))
 				result = true;
 
 			else if (userInput.Equals("q"))
@@ -101,7 +99,12 @@ namespace GasPump
 		{
 			var result = false;
 
-			if (userInput.Equals("R") || userInput.Equals("M") || userInput.Equals("P") || userInput.Equals("D") || userInput.Equals("R"))
+			if (userInput == null)
+			{
+				result = false;
+			}
+
+		else	if (userInput.Equals("R") || userInput.Equals("M") || userInput.Equals("P") || userInput.Equals("D") || userInput.Equals("R"))
 				result = true;
 			else if (userInput.Equals("r") || userInput.Equals("m") || userInput.Equals("p") || userInput.Equals("d") || userInput.Equals("r"))
 				result = true;
