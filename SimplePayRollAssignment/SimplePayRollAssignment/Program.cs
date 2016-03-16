@@ -33,7 +33,7 @@ namespace SimplePayRollAssignment
 
             Console.WriteLine();
 
-
+            Console.Read();
         }
     }
 }
