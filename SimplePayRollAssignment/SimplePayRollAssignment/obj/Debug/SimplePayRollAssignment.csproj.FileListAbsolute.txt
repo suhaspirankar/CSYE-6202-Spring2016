@@ -1,0 +1,6 @@
+c:\users\pirsu001\documents\visual studio 2015\Projects\SimplePayRollAssignment\SimplePayRollAssignment\bin\Debug\SimplePayRollAssignment.exe.config
+c:\users\pirsu001\documents\visual studio 2015\Projects\SimplePayRollAssignment\SimplePayRollAssignment\obj\Debug\SimplePayRollAssignment.csprojResolveAssemblyReference.cache
+c:\users\pirsu001\documents\visual studio 2015\Projects\SimplePayRollAssignment\SimplePayRollAssignment\bin\Debug\SimplePayRollAssignment.exe
+c:\users\pirsu001\documents\visual studio 2015\Projects\SimplePayRollAssignment\SimplePayRollAssignment\bin\Debug\SimplePayRollAssignment.pdb
+c:\users\pirsu001\documents\visual studio 2015\Projects\SimplePayRollAssignment\SimplePayRollAssignment\obj\Debug\SimplePayRollAssignment.exe
+c:\users\pirsu001\documents\visual studio 2015\Projects\SimplePayRollAssignment\SimplePayRollAssignment\obj\Debug\SimplePayRollAssignment.pdb

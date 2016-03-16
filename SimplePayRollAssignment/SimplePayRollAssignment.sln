@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplePayRollAssignment", "SimplePayRollAssignment\SimplePayRollAssignment.csproj", "{757FE9FC-FE11-41C8-AF23-3502ED00DF05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCase", "TestCase\TestCase.csproj", "{D5B451F7-7A91-4BBC-B05D-C40B7236DC70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{757FE9FC-FE11-41C8-AF23-3502ED00DF05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{757FE9FC-FE11-41C8-AF23-3502ED00DF05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{757FE9FC-FE11-41C8-AF23-3502ED00DF05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{757FE9FC-FE11-41C8-AF23-3502ED00DF05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5B451F7-7A91-4BBC-B05D-C40B7236DC70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5B451F7-7A91-4BBC-B05D-C40B7236DC70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5B451F7-7A91-4BBC-B05D-C40B7236DC70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5B451F7-7A91-4BBC-B05D-C40B7236DC70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

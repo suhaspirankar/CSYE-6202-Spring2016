@@ -1,0 +1,11 @@
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\SimplePayRollAssignment\TestCase\bin\Debug\TestCase.dll
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\SimplePayRollAssignment\TestCase\bin\Debug\TestCase.pdb
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\SimplePayRollAssignment\TestCase\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\SimplePayRollAssignment\TestCase\bin\Debug\nunit.framework.dll
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\SimplePayRollAssignment\TestCase\bin\Debug\SimplePayRollAssignment.exe
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\SimplePayRollAssignment\TestCase\bin\Debug\SimplePayRollAssignment.pdb
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\SimplePayRollAssignment\TestCase\bin\Debug\nunit.framework.xml
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\SimplePayRollAssignment\TestCase\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\SimplePayRollAssignment\TestCase\obj\Debug\TestCase.dll
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\SimplePayRollAssignment\TestCase\obj\Debug\TestCase.pdb
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\SimplePayRollAssignment\TestCase\obj\Debug\TestCase.csprojResolveAssemblyReference.cache
