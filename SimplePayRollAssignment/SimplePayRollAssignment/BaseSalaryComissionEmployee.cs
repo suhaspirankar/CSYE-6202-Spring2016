@@ -6,26 +6,26 @@ using System.Threading.Tasks;
 
 namespace SimplePayRollAssignment
 {
-    class BaseSalaryComissionEmployee :Employee
+    class BaseSalaryComissionEmployee : Employee
     {
         private float grossSales;
         private float commissionRate;
-        private float baseSalary=300;
+        private float baseSalary = 300;
         private float earned;
         private string name;
         private string ssnNumber;
 
 
-        public BaseSalaryComissionEmployee(string name, string ssnNumber):base(name,ssnNumber)
-		{
+        public BaseSalaryComissionEmployee(string name, string ssnNumber) : base(name, ssnNumber)
+        {
             name = this.name;
             ssnNumber = this.ssnNumber;
 
         }
 
 
-       
-             public override void personalInformation()
+
+        public override void personalInformation()
         {
             Console.WriteLine();
             Console.WriteLine();
@@ -39,11 +39,11 @@ namespace SimplePayRollAssignment
 
             Console.Write("Gross Sales : $ ");
             grossSales = float.Parse(Console.ReadLine());
-         //   Console.Write(grossSales);
+            //   Console.Write(grossSales);
 
             Console.Write("Comission rate : ");
             commissionRate = float.Parse(Console.ReadLine());
-          //  Console.Write(commissionRate);
+            //  Console.Write(commissionRate);
             Console.WriteLine("Base Salary : $" + baseSalary);
 
 
@@ -52,7 +52,7 @@ namespace SimplePayRollAssignment
 
         public override float calculateSalary()
         {
-            earned = baseSalary+ grossSales * commissionRate;
+            earned = baseSalary + grossSales * commissionRate;
             return earned;
 
         }

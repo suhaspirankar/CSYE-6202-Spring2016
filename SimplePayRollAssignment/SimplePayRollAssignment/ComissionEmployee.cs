@@ -8,15 +8,15 @@ namespace SimplePayRollAssignment
 {
     public class ComissionEmployee : Employee
     {
-        private float grossSales=10000;
+        private float grossSales = 10000; 
         private float commissionRate;
         private string name;
         private string ssnNumber;
-        public ComissionEmployee(string name, string ssnNumber):base(name,ssnNumber)
-		{
+        public ComissionEmployee(string name, string ssnNumber) : base(name, ssnNumber)
+        {
             name = this.name;
             ssnNumber = this.ssnNumber;
-           
+
 
         }
 
@@ -29,24 +29,23 @@ namespace SimplePayRollAssignment
             name = Console.ReadLine();
 
 
-            Console.Write("Social Security Number :  ");
+            Console.Write("Social Security Number : ");
 
             ssnNumber = Console.ReadLine();
 
-            Console.WriteLine ("Gross Sales : $" +grossSales);
-          //  grossSales = float.Parse(Console.ReadLine());
-          //  Console.Write(grossSales);
+            Console.WriteLine("Gross Sales : $" + grossSales);
+           
 
             Console.Write("Comission rate : ");
             commissionRate = float.Parse(Console.ReadLine());
-           // Console.Write(commissionRate);
+           
         }
 
 
 
         public override float calculateSalary()
         {
-           
+
             return grossSales * commissionRate;
             Console.WriteLine();
 
