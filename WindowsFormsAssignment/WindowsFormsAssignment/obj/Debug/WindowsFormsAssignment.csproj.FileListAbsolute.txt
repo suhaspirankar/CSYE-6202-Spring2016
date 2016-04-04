@@ -1,0 +1,14 @@
+c:\users\pirsu001\documents\visual studio 2015\Projects\WindowsFormsAssignment\WindowsFormsAssignment\bin\Debug\WindowsFormsAssignment.exe
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WindowsFormsAssignment\WindowsFormsAssignment\bin\Debug\WindowsFormsAssignment.exe.config
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WindowsFormsAssignment\WindowsFormsAssignment\obj\Debug\WindowsFormsAssignment.EditStudent.resources
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WindowsFormsAssignment\WindowsFormsAssignment\obj\Debug\WindowsFormsAssignment.MainMenu.resources
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WindowsFormsAssignment\WindowsFormsAssignment\obj\Debug\WindowsFormsAssignment.Login.resources
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WindowsFormsAssignment\WindowsFormsAssignment\obj\Debug\WindowsFormsAssignment.NewStudent.resources
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WindowsFormsAssignment\WindowsFormsAssignment\obj\Debug\WindowsFormsAssignment.Properties.Resources.resources
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WindowsFormsAssignment\WindowsFormsAssignment\obj\Debug\WindowsFormsAssignment.RemoveStudent.resources
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WindowsFormsAssignment\WindowsFormsAssignment\obj\Debug\WindowsFormsAssignment.csproj.GenerateResource.Cache
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WindowsFormsAssignment\WindowsFormsAssignment\obj\Debug\WindowsFormsAssignment.exe
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WindowsFormsAssignment\WindowsFormsAssignment\obj\Debug\WindowsFormsAssignment.pdb
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WindowsFormsAssignment\WindowsFormsAssignment\bin\Debug\WindowsFormsAssignment.pdb
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WindowsFormsAssignment\WindowsFormsAssignment\bin\Debug\Faker.dll
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WindowsFormsAssignment\WindowsFormsAssignment\bin\Debug\FizzWare.NBuilder.dll
