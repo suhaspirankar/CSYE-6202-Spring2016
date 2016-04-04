@@ -32,7 +32,7 @@
             this.fullTimeRadio = new System.Windows.Forms.RadioButton();
             this.label5 = new System.Windows.Forms.Label();
             this.firstNameText = new System.Windows.Forms.TextBox();
-            this.studentId = new System.Windows.Forms.TextBox();
+            this.studentIdTextField = new System.Windows.Forms.TextBox();
             this.lastNameText = new System.Windows.Forms.TextBox();
             this.deptComboBox = new System.Windows.Forms.ComboBox();
             this.addButton = new System.Windows.Forms.Button();
@@ -80,13 +80,15 @@
             this.firstNameText.Name = "firstNameText";
             this.firstNameText.Size = new System.Drawing.Size(194, 20);
             this.firstNameText.TabIndex = 24;
+            this.firstNameText.TextChanged += new System.EventHandler(this.firstNameText_TextChanged);
             // 
-            // studentId
+            // studentIdTextField
             // 
-            this.studentId.Location = new System.Drawing.Point(335, 69);
-            this.studentId.Name = "studentId";
-            this.studentId.Size = new System.Drawing.Size(194, 20);
-            this.studentId.TabIndex = 23;
+            this.studentIdTextField.Location = new System.Drawing.Point(335, 69);
+            this.studentIdTextField.Name = "studentIdTextField";
+            this.studentIdTextField.Size = new System.Drawing.Size(194, 20);
+            this.studentIdTextField.TabIndex = 23;
+            this.studentIdTextField.TextChanged += new System.EventHandler(this.studentIdTextField_TextChanged);
             // 
             // lastNameText
             // 
@@ -94,6 +96,7 @@
             this.lastNameText.Name = "lastNameText";
             this.lastNameText.Size = new System.Drawing.Size(194, 20);
             this.lastNameText.TabIndex = 22;
+            this.lastNameText.TextChanged += new System.EventHandler(this.lastNameText_TextChanged);
             // 
             // deptComboBox
             // 
@@ -102,9 +105,11 @@
             this.deptComboBox.Name = "deptComboBox";
             this.deptComboBox.Size = new System.Drawing.Size(194, 21);
             this.deptComboBox.TabIndex = 21;
+            this.deptComboBox.SelectedIndexChanged += new System.EventHandler(this.deptComboBox_SelectedIndexChanged);
             // 
             // addButton
             // 
+            this.addButton.Enabled = false;
             this.addButton.Location = new System.Drawing.Point(221, 276);
             this.addButton.Name = "addButton";
             this.addButton.Size = new System.Drawing.Size(121, 28);
@@ -151,6 +156,7 @@
             // 
             // resetButton
             // 
+            this.resetButton.Enabled = false;
             this.resetButton.Location = new System.Drawing.Point(408, 276);
             this.resetButton.Name = "resetButton";
             this.resetButton.Size = new System.Drawing.Size(121, 28);
@@ -169,7 +175,7 @@
             this.Controls.Add(this.fullTimeRadio);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.firstNameText);
-            this.Controls.Add(this.studentId);
+            this.Controls.Add(this.studentIdTextField);
             this.Controls.Add(this.lastNameText);
             this.Controls.Add(this.deptComboBox);
             this.Controls.Add(this.addButton);
@@ -190,7 +196,7 @@
         private System.Windows.Forms.RadioButton fullTimeRadio;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox firstNameText;
-        private System.Windows.Forms.TextBox studentId;
+        private System.Windows.Forms.TextBox studentIdTextField;
         private System.Windows.Forms.TextBox lastNameText;
         private System.Windows.Forms.ComboBox deptComboBox;
         private System.Windows.Forms.Button addButton;

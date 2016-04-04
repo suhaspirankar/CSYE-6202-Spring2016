@@ -36,11 +36,11 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.deptComboBox = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lastNameText = new System.Windows.Forms.TextBox();
             this.studentIdText = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.firstNameText = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.fulltimeRadioButton = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -118,6 +118,7 @@
             // 
             // deptComboBox
             // 
+            this.deptComboBox.Enabled = false;
             this.deptComboBox.FormattingEnabled = true;
             this.deptComboBox.Location = new System.Drawing.Point(176, 208);
             this.deptComboBox.Name = "deptComboBox";
@@ -125,13 +126,14 @@
             this.deptComboBox.TabIndex = 7;
             this.deptComboBox.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // textBox1
+            // lastNameText
             // 
-            this.textBox1.Location = new System.Drawing.Point(176, 166);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(194, 20);
-            this.textBox1.TabIndex = 8;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.lastNameText.Enabled = false;
+            this.lastNameText.Location = new System.Drawing.Point(176, 166);
+            this.lastNameText.Name = "lastNameText";
+            this.lastNameText.Size = new System.Drawing.Size(194, 20);
+            this.lastNameText.TabIndex = 8;
+            this.lastNameText.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // studentIdText
             // 
@@ -142,13 +144,14 @@
             this.studentIdText.TabIndex = 9;
             this.studentIdText.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // textBox3
+            // firstNameText
             // 
-            this.textBox3.Location = new System.Drawing.Point(176, 129);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(194, 20);
-            this.textBox3.TabIndex = 10;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.firstNameText.Enabled = false;
+            this.firstNameText.Location = new System.Drawing.Point(176, 129);
+            this.firstNameText.Name = "firstNameText";
+            this.firstNameText.Size = new System.Drawing.Size(194, 20);
+            this.firstNameText.TabIndex = 10;
+            this.firstNameText.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label5
             // 
@@ -160,21 +163,23 @@
             this.label5.Text = "Enrollment Type";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // radioButton1
+            // fulltimeRadioButton
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(176, 253);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(67, 17);
-            this.radioButton1.TabIndex = 12;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Full Time";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            this.fulltimeRadioButton.AutoSize = true;
+            this.fulltimeRadioButton.Enabled = false;
+            this.fulltimeRadioButton.Location = new System.Drawing.Point(176, 253);
+            this.fulltimeRadioButton.Name = "fulltimeRadioButton";
+            this.fulltimeRadioButton.Size = new System.Drawing.Size(67, 17);
+            this.fulltimeRadioButton.TabIndex = 12;
+            this.fulltimeRadioButton.TabStop = true;
+            this.fulltimeRadioButton.Text = "Full Time";
+            this.fulltimeRadioButton.UseVisualStyleBackColor = true;
+            this.fulltimeRadioButton.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
+            this.radioButton2.Enabled = false;
             this.radioButton2.Location = new System.Drawing.Point(300, 253);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(70, 17);
@@ -189,21 +194,21 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(62, 297);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(730, 170);
+            this.dataGridView1.Size = new System.Drawing.Size(730, 291);
             this.dataGridView1.TabIndex = 14;
             // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(874, 474);
+            this.ClientSize = new System.Drawing.Size(874, 600);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.fulltimeRadioButton);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.firstNameText);
             this.Controls.Add(this.studentIdText);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lastNameText);
             this.Controls.Add(this.deptComboBox);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -212,6 +217,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
             this.Name = "MainMenu";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -230,11 +236,11 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.ComboBox deptComboBox;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox lastNameText;
         private System.Windows.Forms.TextBox studentIdText;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox firstNameText;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton fulltimeRadioButton;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.DataGridView dataGridView1;
     }

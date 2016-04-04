@@ -16,6 +16,7 @@ namespace WindowsFormsAssignment
 
         public static List<string> departmentList = new List<string>() { "Information Systems", "International Affairs", "Nursing", "Pharmacy", "Professional Studies", "Psychology", "Public Administration" };
 
+        //
     }
 
 }

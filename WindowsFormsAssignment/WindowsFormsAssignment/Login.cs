@@ -14,9 +14,12 @@ namespace WindowsFormsAssignment
     {
         public string userName = "s";
         public string pass = "s";
+        int noOfLoginAttempts = 0;
+
         public Login()
         {
             InitializeComponent();
+            passtextbox.PasswordChar = '*';
 
         }
 
@@ -37,15 +40,24 @@ namespace WindowsFormsAssignment
 
         private void button1_Click(object sender, EventArgs e)
         {
+           
             if(this.userNametextBox.Text == this.userName & this.passtextbox.Text == this.pass)
             {
-                MainMenu m = new MainMenu();
+                MainMenu m = new MainMenu("random");
                 this.Hide();
                 m.Show();
             }
             else
             {
                 MessageBox.Show("Please enter valid credentiatls");
+                noOfLoginAttempts = noOfLoginAttempts+ 1;
+
+
+                if (noOfLoginAttempts >= 3)
+                {
+                    System.Environment.Exit(1);
+                }
+
             }
         }
     }

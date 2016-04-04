@@ -14,14 +14,37 @@ namespace WindowsFormsAssignment
     {
 
         List<string> enrolType = new List<string>() { "Full Time", "Part Time" };
+        int callRandom = 0;
         public MainMenu()
         {
             InitializeComponent();
+            populateGrid();
+
+            
+        }
+
+        public MainMenu(string randomGenerator)
+        {
+            InitializeComponent();
+            //New Constructor created so that evey time no random function is called and 10 records are inserted
             CreateRandomStudents();
-            this.studentIdText.Text = RandomString(9);
+            this.studentIdText.Text = RandomString();
+            this.firstNameText.Text = Faker.NameFaker.FirstName();
+            this.lastNameText.Text = Faker.NameFaker.LastName();
+            this.fulltimeRadioButton.Checked = true;
             deptComboBox.DataSource = Student.departmentList;
             dataGridView1.DataSource = StaticClass.getInstance().studentList;
-            
+
+        }
+
+        private void populateGrid()
+        {
+            this.studentIdText.Text = RandomString();
+            this.firstNameText.Text = Faker.NameFaker.FirstName();
+            this.lastNameText.Text = Faker.NameFaker.LastName();
+            this.fulltimeRadioButton.Checked = true;
+            deptComboBox.DataSource = Student.departmentList;
+            dataGridView1.DataSource = StaticClass.getInstance().studentList;
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -103,10 +126,10 @@ namespace WindowsFormsAssignment
         public void CreateRandomStudents()
         {
 
-            for (int i = 0; i < 2; i++)
+            for (int i = 0; i < 10; i++)
             {
                 Student s = Builder<Student>.CreateNew().Build();
-                s.studentId = RandomString(9);
+                s.studentId = RandomString();
                 s.firstName = Faker.NameFaker.FirstName();
                 s.lastName = Faker.NameFaker.LastName();
                 s.department = Student.departmentList[getRandomIndex()];
@@ -132,7 +155,7 @@ namespace WindowsFormsAssignment
             return random.Next(0, 2);
         }
 
-        public static string RandomString(int length)
+        public static string RandomString()
         {
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
             var random = new Random();
