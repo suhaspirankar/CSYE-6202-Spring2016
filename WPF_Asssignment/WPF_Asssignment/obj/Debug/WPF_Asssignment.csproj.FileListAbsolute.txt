@@ -1,0 +1,27 @@
+c:\users\pirsu001\documents\visual studio 2015\Projects\WPF_Asssignment\WPF_Asssignment\bin\Debug\WPF_Asssignment.exe.config
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WPF_Asssignment\WPF_Asssignment\obj\Debug\EditStudent.g.cs
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WPF_Asssignment\WPF_Asssignment\obj\Debug\MainMenu.g.cs
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WPF_Asssignment\WPF_Asssignment\obj\Debug\NewStudent.g.cs
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WPF_Asssignment\WPF_Asssignment\obj\Debug\RemoveStudent.g.cs
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WPF_Asssignment\WPF_Asssignment\obj\Debug\App.g.cs
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WPF_Asssignment\WPF_Asssignment\obj\Debug\WPF_Asssignment_MarkupCompile.cache
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WPF_Asssignment\WPF_Asssignment\obj\Debug\WPF_Asssignment_MarkupCompile.lref
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WPF_Asssignment\WPF_Asssignment\bin\Debug\WPF_Asssignment.exe
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WPF_Asssignment\WPF_Asssignment\bin\Debug\WPF_Asssignment.pdb
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WPF_Asssignment\WPF_Asssignment\bin\Debug\Faker.dll
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WPF_Asssignment\WPF_Asssignment\bin\Debug\FizzWare.NBuilder.dll
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WPF_Asssignment\WPF_Asssignment\obj\Debug\EditStudent.baml
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WPF_Asssignment\WPF_Asssignment\obj\Debug\MainMenu.baml
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WPF_Asssignment\WPF_Asssignment\obj\Debug\NewStudent.baml
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WPF_Asssignment\WPF_Asssignment\obj\Debug\RemoveStudent.baml
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WPF_Asssignment\WPF_Asssignment\obj\Debug\WPF_Asssignment.g.resources
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WPF_Asssignment\WPF_Asssignment\obj\Debug\WPF_Asssignment.Properties.Resources.resources
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WPF_Asssignment\WPF_Asssignment\obj\Debug\WPF_Asssignment.csproj.GenerateResource.Cache
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WPF_Asssignment\WPF_Asssignment\obj\Debug\WPF_Asssignment.exe
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WPF_Asssignment\WPF_Asssignment\obj\Debug\WPF_Asssignment.pdb
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WPF_Asssignment\WPF_Asssignment\obj\Debug\mainwindow.g.cs
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WPF_Asssignment\WPF_Asssignment\obj\Debug\mainwindow.baml
+C:\Users\pirsu001\Documents\Visual Studio 2015\Projects\WPF_Asssignment\WPF_Asssignment\obj\Debug\WPF_Asssignment.csprojResolveAssemblyReference.cache
+C:\Users\pirsu001\Source\Repos\CSYE-6202-Spring20162\WPF_Asssignment\WPF_Asssignment\bin\Debug\WPF_Asssignment.exe.config
+C:\Users\pirsu001\Source\Repos\CSYE-6202-Spring20162\WPF_Asssignment\WPF_Asssignment\obj\Debug\WPF_Asssignment.exe
+C:\Users\pirsu001\Source\Repos\CSYE-6202-Spring20162\WPF_Asssignment\WPF_Asssignment\obj\Debug\WPF_Asssignment.pdb
