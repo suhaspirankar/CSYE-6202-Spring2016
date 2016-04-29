@@ -21,5 +21,4 @@ email  ,contactNumber  ,address  ,flight_id  ) values (1008,"Leon", "Paul", "leo
 insert into flight_crew(crew_id  ,firstName ,lastName  ,
 email  ,contactNumber  ,address  ,flight_id  ) values (1108,"AKshay", "Brain", "aks@gmail.com","53434434","Alphonsus town",8637);
 insert into flight_crew(crew_id  ,firstName ,lastName  ,
-email  ,contactNumber  ,address  ,flight_id  ) values (1009,"Anand", "Modani", "anand@gmail.com","6174154567","Smith Street",8637); 
-SELECT  * From Flight_CREW;
+email  ,contactNumber  ,address  ,flight_id  ) values (1009,"Anand", "Modani", "anand@gmail.com","6174154567","Smith Street",8637);
