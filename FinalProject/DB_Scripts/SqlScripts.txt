@@ -1,0 +1,25 @@
+create database  Airline_Reservation_System;
+use Airline_Reservation_System;
+
+CREATE TABLE USER (User_id int(25) PRIMARY KEY,FirstName varchar(25),LastName varchar(25),UserName varchar(25),PasswordColumn varchar(25),
+Email varchar(25),contactNumber varchar(25),Address varchar(25),Role varchar(25));
+
+CREATE TABLE FLIGHT (Flight_id int(25) PRIMARY KEY,Flight_Name varchar(25), Departure_date varchar(25),Departure_time varchar(25), Arrival_date varchar(25),Arrival_Time varchar(25),departure varchar(25), destination varchar(25), Carrier varchar(25));
+
+CREATE TABLE USER_FLIGHTS(USER_ID int(25) ,Customer_Name varchar (25),idType varchar (25),IdNumber varchar (25),FLIGHT_ID int(25) , FLIGHT_NAME  varchar(25),SEAT_CLASS  varchar(25),prices varchar(25));
+
+CREATE TABLE Flight_CREW (Crew_id int(25) PRIMARY KEY,firstName varchar(25),lastName varchar(25),
+email varchar(25),contactNumber varchar(25),address varchar(25),flight_id int(25));
+
+
+
+insert into flight_crew(crew_id  ,firstName ,lastName  , email  ,contactNumber  ,address  ,flight_id  ) values (1000,"malika", "nair", "malika@gmail.com","6174153216","Alphonsus Street",8637);
+
+insert into flight_crew(crew_id  ,firstName ,lastName  ,
+email  ,contactNumber  ,address  ,flight_id  ) values (1008,"Leon", "Paul", "leon@gmail.com","6174153999","Alphonsus Street",8637);
+
+insert into flight_crew(crew_id  ,firstName ,lastName  ,
+email  ,contactNumber  ,address  ,flight_id  ) values (1108,"AKshay", "Brain", "aks@gmail.com","53434434","Alphonsus town",8637);
+insert into flight_crew(crew_id  ,firstName ,lastName  ,
+email  ,contactNumber  ,address  ,flight_id  ) values (1009,"Anand", "Modani", "anand@gmail.com","6174154567","Smith Street",8637); 
+SELECT  * From Flight_CREW;
